@@ -18,10 +18,6 @@ export class MyChild {
     console.log("connectedCallback()", this.id);
   }
 
-  componentDidUnload() {
-    // console.log("componentDidUnload()", this.id);
-  }
-
   disconnectedCallback() {
     console.log("disconnectedCallback()", this.id);
   }
